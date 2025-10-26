@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FighterCamp - MMA Training Camp Management</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #D32F2F 0%, #B71C1C 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature {
+            background: #f8f8f8;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .feature h3 {
+            color: #D32F2F;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .feature p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .cta {
+            background: #D32F2F;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .cta h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: white;
+            color: #D32F2F;
+            padding: 15px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #f5f5f5;
+            transform: scale(1.05);
+        }
+
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .footer a {
+            color: #D32F2F;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .header p {
+                font-size: 1.1rem;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🥊 FighterCamp</h1>
+        <p>Professional MMA Training Camp Management for Coaches and Fighters</p>
+    </div>
+
+    <div class="container">
+        <h2 style="text-align: center; margin-bottom: 40px; font-size: 2rem;">Streamline Your Training Camps</h2>
+
+        <div class="features">
+            <div class="feature">
+                <h3>📅 Calendar & Scheduling</h3>
+                <p>Create detailed daily training schedules. Set requirements for cardio, sparring, pad work, and more. Fighters see their daily checklists automatically.</p>
+            </div>
+
+            <div class="feature">
+                <h3>📊 Progress Tracking</h3>
+                <p>Monitor training logs, weight cuts, and performance metrics. Visualize progress with charts and analytics throughout the entire camp.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🤼 Fighter Management</h3>
+                <p>Manage multiple fighters and camps simultaneously. Track records, weight classes, and individual training requirements.</p>
+            </div>
+
+            <div class="feature">
+                <h3>📱 Mobile First</h3>
+                <p>Access everything from your phone. Coaches set schedules, fighters check off requirements, all in real-time.</p>
+            </div>
+
+            <div class="feature">
+                <h3>📈 Analytics</h3>
+                <p>Detailed insights into training volume, intensity, and completion rates. Export reports and share progress with your team.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🔔 Notifications</h3>
+                <p>Stay on top of training with smart reminders. Get notified about upcoming sessions, fight day countdowns, and more.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta">
+        <h2>Coming Soon to iOS & Android</h2>
+        <p>Professional training camp management built for the modern MMA gym</p>
+        <a href="mailto:info@fightercamp.app" class="btn">Get Early Access</a>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 FighterCamp. All rights reserved.</p>
+        <p style="margin-top: 10px;">
+            <a href="mailto:support@fightercamp.app">Contact Support</a>
+        </p>
+    </div>
+</body>
+</html>
